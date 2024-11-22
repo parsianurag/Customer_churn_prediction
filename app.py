@@ -67,7 +67,7 @@ st.write(f'Churn Probability: {prediction_proba:.2f}')
 if prediction_proba > 0.5:
     st.write('The customer is likely to churn.')
 else:
-    st.markdown('<p style="color:red; font-size:20px; font-weight:bold;">The customer is likely to churn.</p>', unsafe_allow_html=True)
+    st.write('The customer is not likely to churn.')
 
 
 with st.container():
