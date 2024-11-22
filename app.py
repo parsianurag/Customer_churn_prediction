@@ -74,6 +74,6 @@ with st.container():
     right_column, left_column = st.columns(2)
     with right_column:
 
-        st.write('_For any issue contact me via :_')
+        st.write('_For any doubts and issues contact me via :_')
         st.info('[LinkedIn](https://)', icon="📩")
         st.info('[parsianurag.39@gmail.com]', icon="📩")
