@@ -68,3 +68,11 @@ if prediction_proba > 0.5:
     st.write('The customer is likely to churn.')
 else:
     st.write('The customer is not likely to churn.')
+
+
+with st.container():
+    right_column, left_column = st.columns(2)
+    with right_column:
+
+        st.write('_For any issue contact me via :_')
+        st.info('[LinkedIn](https://)', icon="📩")
