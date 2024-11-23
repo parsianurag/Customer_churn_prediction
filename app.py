@@ -76,4 +76,4 @@ with st.container():
 
         st.write('_For any doubts and issues contact me via :_')
         st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
-        st.info('[parsianurag.39@gmail.com]', icon="📩")
+        st.info('[anuragdscon@gmail.com]', icon="📩")
